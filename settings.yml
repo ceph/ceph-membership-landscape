@@ -1,6 +1,5 @@
 foundation: Ceph
-url: https://ceph.github.io/ceph-membership-landscape
-base_path: /ceph-membership-landscape
+url: https://landscape.cephfoundation.org/
 colors:
   color1: "rgba(240, 92, 86, 1)"
   color2: "rgba(51, 51, 51, 1)"
