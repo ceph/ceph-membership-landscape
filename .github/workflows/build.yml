@@ -1,34 +1,3 @@
-name: Build Landscape from LFX
-
-on:
-  workflow_dispatch:
-  push:
-    branches: [main]
-  schedule:
-    - cron: "0 4 * * *"
-
-permissions: {}
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
-jobs:
-  sync:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    steps:
-      - uses: jmertic/lfx-landscape-tools@9176c94eb7a966dc8af247efa69ef8c542e2129d # 20260826
-        with:
-          project_processing: enabled
-        env:
-          token: ${{ secrets.PAT }}
-          repository: ${{ github.repository }}
-          ref: ${{ github.ref }}
-
   deploy:
     runs-on: ubuntu-latest
     permissions:
@@ -43,4 +12,16 @@ jobs:
       - name: Build landscape
         run: |
           docker run --rm \
-            -v ${{ github.workspace
+            -v ${{ github.workspace }}:/data \
+            public.ecr.aws/g6m3a0y9/landscape2 \
+            landscape2 build \
+              --data-file /data/landscape.yml \
+              --settings-file /data/settings.yml \
+              --logos-path /data/hosted_logos \
+              --output-dir /data/build
+          cp build/index.html build/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+      - id: deployment
+        uses: actions/deploy-pages@v4
