@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          LANDSCAPE_URL: 'https://ccc.landscape2.io'
+          LANDSCAPE_URL: 'https://ceph.github.io/ceph-membership-landscape'
           DATA_FILE: 'landscape.yml'
           LOGOS_PATH: 'hosted_logos'
           OWNER: ${{ github.event.pull_request.head.repo.owner.login }}

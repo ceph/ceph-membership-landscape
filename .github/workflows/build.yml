@@ -43,4 +43,16 @@ jobs:
       - name: Build landscape
         run: |
           docker run --rm \
-            -v ${{ github.workspace
+            -v ${{ github.workspace }}:/data \
+            public.ecr.aws/g6m3a0y9/landscape2 \
+            landscape2 build \
+              --data-file /data/landscape.yml \
+              --settings-file /data/settings.yml \
+              --logos-path /data/hosted_logos \
+              --output-dir /data/build
+          cp build/index.html build/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+      - id: deployment
+        uses: actions/deploy-pages@v4
