@@ -30,6 +30,7 @@ jobs:
           ref: ${{ github.ref }}
 
   deploy:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -40,16 +41,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Install landscape2
+        run: |
+          curl -sL https://github.com/cncf/landscape2/releases/latest/download/landscape2-x86_64-unknown-linux-musl.tar.gz \
+            | tar xz -C /usr/local/bin
       - name: Build landscape
         run: |
-          docker run --rm \
-            -v ${{ github.workspace }}:/data \
-            public.ecr.aws/g6m3a0y9/landscape2 \
-            landscape2 build \
-              --data-file /data/landscape.yml \
-              --settings-file /data/settings.yml \
-              --logos-path /data/hosted_logos \
-              --output-dir /data/build
+          landscape2 build \
+            --data-file landscape.yml \
+            --settings-file settings.yml \
+            --logos-path hosted_logos \
+            --output-dir build
           cp build/index.html build/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
