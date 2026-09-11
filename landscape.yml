@@ -3,14 +3,278 @@ landscape:
     name: Ceph Foundation Member Company
     subcategories:
       - subcategory:
-        name: Premier
-        items: []
+        name: Diamond
+        items:
+          - item:
+            name: 45Drives
+            homepage_url: https://45drives.com/
+            logo: 45drives.svg
+            description: 45Drives is a company that provides computing resources within an open storage platform to create a server solution for rapidly growing storage requirements. They offer enterprise storage solutions using open source software, allowing customers to cust...
+            extra:
+              linkedin_url: https://www.linkedin.com/company/45-drives
+          - item:
+            name: Bloomberg Finance L.P.
+            homepage_url: https://techatbloomberg.com/
+            logo: bloomberg_finance_l_p.svg
+            description: Bloomberg is a privately held mass media, data, and financial software company headquartered in New York, New York. The company is best known for as a provider of business and financial market news, including stock quotes, world economics, and financial advice. Bloomberg includes a global TV network (Bloomberg Television), a radio station (WBBR), three magazines (Bloomberg Businessweek, Bloomberg Markets, and Bloomberg Pursuit), and a wire service (Bloomberg News). The company also provides financial software tools, including data services and an analytics and equity trading platform to financial companies and organizations through the Bloomberg terminal.
+            crunchbase: https://www.crunchbase.com/organization/bloomberg
+            twitter: https://twitter.com/business
+            extra:
+              linkedin_url: https://www.linkedin.com/company/bloomberg-bna
+          - item:
+            name: CLYSO GmbH
+            homepage_url: https://clyso.com/
+            logo: clyso_gmbh.svg
+            description: |-
+              Founded in 2010, CLYSO is a German company with headquarters in Munich, dedicated to Cloud Computing. We specialize in building highly scalable and globally distributed cloud environments, offering the deep expertise needed to design, build, deploy, and operate comprehensive solutions. Our core focus spans the IaaS, PaaS, and SaaS layers, and we actively use open-source technology to minimize risks related to IT security, licensing costs, and technical bottlenecks. Our competence is tangible through our leading role in the Ceph community. We hold key roles like Performance Lead and Executive Board Member of the Ceph Foundation, and our team includes Ceph Ambassadors for the DACH region, India, and France. With over 2,700 commits, our developers are major contributors to the Ceph codebase, proving we are co-creators of the technology, not just users.
+              We are the only Platinum member of the Ceph Foundation with a commercial support model focused on the entire Ceph ecosystem, which guarantees maximum flexibility and the right partnership for any challenge. Our employees have completed over 500 successful Ceph projects, handling a vast range of use cases. Our work is also recognized in academia; our Ceph implementation at GWDG achieved a top ranking in the renowned IO500 list, demonstrating our ability to deliver outstanding performance in the most demanding environments.
+              CLYSO is defined by its solid structure, focused drive, and service-oriented culture. With employees in Germany and in North America, we specialize almost exclusively in Ceph. Over 18 of our developers are dedicated solely to building and optimizing Ceph solutions, ensuring you partner with a team that understands the technology from the ground up. Our support model ensures you speak directly with the developers and architects who actively shape the product, minimizing friction and accelerating problem resolution. Our engagement at events like Cephalocon and Ceph Days shows our commitment to actively shaping the future of the technology. When you work with us, you work with a partner that not only stays up-to-date but also drives development. Our continuous contributions to bug fixing and code development directly benefit the stability and security of the solutions we implement.
+
+              We specialize in designing, deploying, and operating highly resilient, large-scale infrastructures across Private Cloud, Public Cloud, and Multi Cloud domains. Our engineering capabilities encompass integration of Software Defined Storage using Ceph, automated lifecycle management via Kubernetes and Openstack, and the orchestration of IaaS and PaaS platforms tailored for complex enterprise workloads. Leveraging deep expertise in Linux and OpenSource Technologies, our team applies advanced optimization, security hardening, and cost management strategies to deliver scalable, high-performance environments. By adopting infrastructure-as-code, advanced monitoring, and multi-tenant architectures, we accelerate cloud transformation projects—empowering organizations to achieve operational agility, efficiency, and future-ready cloud ecosystems.
+            crunchbase: https://www.crunchbase.com/organization/clyso-gmbh
+            twitter: https://twitter.com/Clyso_GmbH
+            extra:
+              linkedin_url: https://www.linkedin.com/company/clyso
+          - item:
+            name: International Business Machines Corporation
+            homepage_url: https://ibm.com/
+            logo: international_business_machines_corporation.svg
+            description: |-
+              Founded in 1911, International Business Machines (IBM) is a multinational computer, technology, and IT consulting corporation that manufactures and sells computer hardware and software, and offers infrastructure services, hosting services, and consulting services. They are headquartered in Armonk, New York.
+
+              --- Merged Data:
+
+              IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            twitter: https://twitter.com/IBM
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ibm
+      - subcategory:
+        name: Platinum
+        items:
+          - item:
+            name: Western Digital Corporation
+            homepage_url: https://westerndigital.com/
+            logo: western_digital_corporation.svg
+            description: Western Digital creates environments for data to thrive. The company is a data infrastructure company that drives the innovation needed to help customers capture, preserve, access and transform an ever-increasing diversity of data. The company is headquartered in San Jose, California and has offices across the globe.
+            crunchbase: https://www.crunchbase.com/organization/western-digital-capital
+            twitter: https://twitter.com/westerndigital
+            extra:
+              linkedin_url: https://www.linkedin.com/company/western-digital
       - subcategory:
         name: Gold
-        items: []
+        items:
+          - item:
+            name: 42on
+            homepage_url: https://42on.com/
+            logo: 42on.svg
+            description: 42on provides high quality CEPH consultancy since 2012. Assisting organizations in designing, deploying, implementing and running Ceph clusters.
+            crunchbase: https://www.crunchbase.com/organization/42on
+            twitter: https://twitter.com/42oncom
+            extra:
+              linkedin_url: https://www.linkedin.com/company/42on
       - subcategory:
         name: Silver
-        items: []
+        items:
+          - item:
+            name: Canonical Group Limited
+            homepage_url: https://canonical.com/
+            logo: canonical_group_limited.svg
+            description: Canonical Ltd. is a UK-based privately held computer software company founded and funded by South African entrepreneur Mark Shuttleworth to market commercial support and related services for Ubuntu and related projects.
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            twitter: https://twitter.com/Canonical
+            extra:
+              linkedin_url: https://www.linkedin.com/company/canonical-ltd-
+          - item:
+            name: CloudFerro S.A.
+            homepage_url: https://cloudferro.com/
+            logo: cloudferro_s_a.svg
+            description: CloudFerro Sp. z o.o.
+            crunchbase: https://www.crunchbase.com/organization/cloudferro
+            twitter: https://twitter.com/CloudFerro
+            extra:
+              linkedin_url: https://www.linkedin.com/company/clfr
+          - item:
+            name: croit GmbH
+            homepage_url: https://croit.io/
+            logo: croit_gmbh.svg
+            description: croit offers the perfect storage solution to meet any requirement. Whether you need lots of capacity, rapid access, or perfect geo-redundancy, software-defined storage with Ceph is easy to implement with croit!
+            extra:
+              linkedin_url: https://www.linkedin.com/company/croit
+          - item:
+            name: Intelligent Systems Services
+            homepage_url: https://iss-integration.com/
+            logo: intelligent_systems_services.svg
+            description: |-
+              Deliver hosted and on-premise Mission Critical systems
+              To serve as the backbone of our Customers' Operations
+              Using Superior Technology, Execution and Service.
+            crunchbase: https://www.crunchbase.com/organization/intelligent-systems-services-inc
+          - item:
+            name: Long Van
+            homepage_url: https://longvan.net/
+            logo: long_van.svg
+            description: Long Van is a top cloud services provider in Vietnam, offering high-quality SSD Servers and VPS Hosting solutions with competitive prices. Partnered with leading global technology providers, Long Van serves over 10,000 cloud servers to customers in Vie...
+          - item:
+            name: OSNEXUS
+            homepage_url: https://osnexus.com/
+            logo: osnexus.svg
+            description: |-
+              The QuantaStor Software Defined Storage platform turns servers into 
+                multi-protocol scale-out storage appliances and delivers file, block, and 
+                object storage.
+            crunchbase: https://www.crunchbase.com/organization/os-nexus
+            twitter: https://twitter.com/osnexus
+            extra:
+              linkedin_url: https://www.linkedin.com/company/os-nexus
+          - item:
+            name: OVH SAS
+            homepage_url: https://ovhcloud.com/
+            logo: ovh_sas.svg
+            description: |-
+              OVHcloud is a global player and Europe’s leading cloud services provider. For more than 25 years, the Group has been putting its technological expertise at the service of companies, developers and public organizations, developing innovative solutions in the cloud, artificial intelligence, quantum and next-generation infrastructure.
+
+              With 46 datacentres worldwide, OVH supports 1.6 million customers in more than 140 countries on 4 continents. Its unique integrated model enables it to offer a sovereign, sustainable, high-performance and transparent cloud, designed to meet critical availability, resilience, security, compliance and cost-control challenges.
+
+              In a world where technology is increasingly shaping our future, OVHcloud stands by a strong conviction: innovation must remain open, managed, and accessible to as many people as possible. By empowering organizations to maintain control of their data and technological choices, OVHcloud is helping them to innovate, build and freely deploy the digital world of tomorrow.
+
+              OVH, Innovation for Freedom.
+            crunchbase: https://www.crunchbase.com/organization/ovh-us
+            twitter: https://twitter.com/OVHcloud
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ovhgroup
+          - item:
+            name: Sony Interactive Entertainment LLC
+            homepage_url: https://playstation.com/
+            logo: sony_interactive_entertainment_llc.svg
+            description: Sony Corporation is a Japanese multinational conglomerate corporation headquartered in Kōnan, Minato, Tokyo.
+            crunchbase: https://www.crunchbase.com/organization/sony-interactive-entertainment
+            twitter: https://twitter.com/PlayStation
+            extra:
+              linkedin_url: https://www.linkedin.com/company/playstation-sony
       - subcategory:
         name: Associate
-        items: []
+        items:
+          - item:
+            name: (FASRC) FAS Research Computing - Harvard
+            homepage_url: https://rc.fas.harvard.edu/
+            logo: fasrc_fas_research_computing_harvard.svg
+            description: Founded in 1636 Harvard University is a private research university. The University, which is based in Cambridge and Boston, Massachusetts, has an enrollment of over 20,000 degree candidates, including undergraduate, graduate, and professional students. Harvard has more than 360,000 alumni around the world.
+            crunchbase: https://www.crunchbase.com/organization/harvard-university
+            twitter: https://twitter.com/Harvard
+            extra:
+              linkedin_url: https://www.linkedin.com/company/harvard-university
+          - item:
+            name: GRNET (Greek Research and Technology Network)
+            homepage_url: https://grnet.gr/
+            logo: grnet_greek_research_and_technology_network.svg
+            description: |-
+              GRNET - Networking Research and Education
+              7, Kifisias Av., 115 23, Athens
+              t: +30 210 7475687
+
+              --- Merged Data:
+
+              The National Infrastructures for Research and Technology or GRNET is the national research and education network of Greece.
+
+              --- Merged Data:
+
+              The National Infrastructures for Research and Technology or GRNET is the national research and education network of Greece.
+            crunchbase: https://www.crunchbase.com/organization/grnet
+            twitter: https://twitter.com/grnet_gr
+            extra:
+              linkedin_url: https://www.linkedin.com/company/grnet
+          - item:
+            name: Monash University
+            homepage_url: https://monash.edu/
+            logo: monash_university.svg
+            description: Monash University is a public research university based in Melbourne, Australia.
+            crunchbase: https://www.crunchbase.com/organization/monash-university
+            twitter: https://twitter.com/MonashUni
+            extra:
+              linkedin_url: https://www.linkedin.com/company/monash-university
+          - item:
+            name: SARAO (South African Radio Astronomy Observatory)
+            homepage_url: https://ska.ac.za/
+            logo: sarao_south_african_radio_astronomy_observatory.svg
+            description: |-
+              Cape Town
+              Tel: +27 (0)21 506 7300
+              3rd Floor, The Park, Park Road, Pinelands, South Africa
+
+              Johannesburg
+              Tel:	+27 (0)11 442 2434
+              17 Baker St, Rosebank, Johannesburg, South Africa
+            twitter: https://twitter.com/SKA_Africa
+            extra:
+              linkedin_url: https://www.linkedin.com/company/south-african-radio-astronomy-observatory
+          - item:
+            name: Science & Technology Facilities Council (STFC)
+            homepage_url: https://stfc.ac.uk/
+            logo: science_technology_facilities_council_stfc.svg
+            description: The home of world class research and innovation in the UK (United Kingdom) with a combined budget of more than £6 billion, UK Research and Innovation brings together the seven Research Councils (AHRC, BBSRC, EPSRC, ESRC, MRC, NERC, STFC), Innovate UK a...
+            twitter: https://twitter.com/UKRI_News
+            extra:
+              linkedin_url: https://www.linkedin.com/company/uk-research-innovation
+          - item:
+            name: SLAC National Accelerator Lab
+            homepage_url: https://slac.stanford.edu/
+            logo: slac_national_accelerator_lab.svg
+            description: Stanford University is one of the world's leading research and teaching institutions, dedicated to catalyzing discovery, accelerating solutions, and preparing students for active citizenship. With a focus on sustainability, innovation, and societal imp...
+          - item:
+            name: SWITCH
+            homepage_url: https://switch.ch/
+            logo: switch.svg
+            description: |-
+              Overview
+              SWITCH is committed to improved performance, convenience and security in the digital world. In collaboration with its stakeholders in and outside the academic world, the foundation develops and improves integrated ICT solutions in the areas of network, security, identity management and cloud computing. SWITCH has been the registry for .ch and .li domain names since the early days of the internet. In 2017, the foundation celebrated its 30th anniversary. Around 100 people are employed at the headquarters in Zurich.
+
+              Website https://www.switch.ch Industry Internet Company size 51-200 employees Type Nonprofit Founded 1987 Specialties Network, IT-Security, Trust & Identity, Infrastructure & Data Services, .ch Registry, Procurement, Collaboration, and Video Management
+              Locations
+              Primary
+              Werdstrasse 2, Zurich, 8021, CH
+            crunchbase: https://www.crunchbase.com/organization/switch-4
+            twitter: https://twitter.com/SWITCH_ch
+            extra:
+              linkedin_url: https://www.linkedin.com/company/switch-switzerland
+          - item:
+            name: The European Organization for Nuclear Research
+            homepage_url: https://cern.ch/
+            logo: the_european_organization_for_nuclear_research.svg
+            description: |-
+              05278 The European Organization for Nuclear Research, known as CERN, is a European research organization that operates the largest particle physics laboratory in the world.
+
+              --- Merged Data:
+
+              CERN, the European Organization for Nuclear Research, is the world's largest particle physics lab, probing the fundamental structure of particles to understand the Universe using complex scientific instruments.
+            crunchbase: https://www.crunchbase.com/organization/cern
+            twitter: https://twitter.com/CERN
+            extra:
+              linkedin_url: https://www.linkedin.com/company/cern
+          - item:
+            name: Trustees of Boston University
+            homepage_url: https://bu.edu/
+            logo: trustees_of_boston_university.svg
+            description: Boston University was originally founded as a Methodist seminary in 1839. Now, the private university has more than 32,000 students at its campus on the banks of the Charles River. It offers approximately 250 undergraduate, graduate, doctorate, and special degree programs at more than 15 colleges and schools.
+            crunchbase: https://www.crunchbase.com/organization/boston-university
+            twitter: https://twitter.com/BU_Tweets
+            extra:
+              linkedin_url: https://www.linkedin.com/company/boston-university
+          - item:
+            name: UC Santa Cruz
+            homepage_url: https://ucsc.edu/
+            logo: uc_santa_cruz.svg
+            description: The University of California, Santa Cruz is a public research university in Santa Cruz, California.
+            crunchbase: https://www.crunchbase.com/organization/university-of-california-santa-cruz
+            twitter: https://twitter.com/ucsc
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ucsc
+          - item:
+            name: University of Michigan
+            homepage_url: https://ai.engin.umich.edu/
+            logo: university_of_michigan.svg
+            description: The Regents of the University of Michigan, for its Advanced Research Computing Department
+            crunchbase: https://www.crunchbase.com/organization/university-of-michigan-ann-arbor
+            twitter: https://twitter.com/UMich
+            extra:
+              linkedin_url: https://www.linkedin.com/company/university-of-michigan
