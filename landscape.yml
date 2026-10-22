@@ -53,6 +53,20 @@ landscape:
         name: Platinum
         items:
           - item:
+            name: Go Daddy Operating Company, LLC
+            homepage_url: https://godaddy.com/
+            logo: go_daddy_operating_company_llc.svg
+            description: |-
+              The Go Daddy Group, Inc. provides domain name registration and Web hosting services in the United States. The company offers registration, renewal, and transfer services for domain names with .COM, .NET, .ORG, .INFO, .BIZ, and .US domain extensions. It also provides net-new SSL certificates, sales and marketing software, and eCommerce solutions; and Website design and creation, and cloud-based services. The Go Daddy Group, Inc. was founded in 1997 and is based in Scottsdale, Arizona. The company has locations worldwide, including Arizona; Iowa; California; Colorado; Washington, D.C.; India; Singapore; Toronto; and the Netherlands.
+
+              --- Merged Data:
+
+              GoDaddy Inc.
+            crunchbase: https://www.crunchbase.com/organization/godaddy
+            twitter: https://twitter.com/GoDaddy
+            extra:
+              linkedin_url: https://www.linkedin.com/company/godaddy
+          - item:
             name: Western Digital Corporation
             homepage_url: https://westerndigital.com/
             logo: western_digital_corporation.svg
